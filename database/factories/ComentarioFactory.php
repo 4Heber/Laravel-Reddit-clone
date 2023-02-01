@@ -17,7 +17,8 @@ class ComentarioFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'autor' => $this->faker->name(),
+            'contenido' => $this->faker->paragraph(4)
         ];
     }
 }
