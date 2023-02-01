@@ -25,7 +25,13 @@ return new class extends Migration
                 ->references('id')
                 ->on('users')
                 ->onDelete('cascade');
-        });
+        
+        $table->unsignedBigInteger('comunidads_id');
+        $table->foreign('comunidads_id')
+            ->references('id')
+            ->on('comunidads')
+            ->onDelete('cascade');
+    });
     }
 
     /**

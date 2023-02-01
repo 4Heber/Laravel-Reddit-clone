@@ -16,4 +16,9 @@ class Post extends Model
         // Permite la consulta de datos del usuario asociado al post.
         // $autor = Post::find(<user_id>)->user();
     }
+
+    public function comunidad(){
+        return $this->belongsTo(Comunidad::class);
+        
+    }
 }
