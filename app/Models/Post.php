@@ -21,4 +21,8 @@ class Post extends Model
         return $this->belongsTo(Comunidad::class);
         
     }
+    public function commentario(){
+        return $this->hasMany(Comentario::class);
+        
+    }
 }

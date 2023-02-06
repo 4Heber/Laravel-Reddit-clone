@@ -51,6 +51,6 @@ class User extends Authenticatable
         
     }
     public function comunidad(){
-        return $this->belongsToMany(Comunidad::class);
+        return $this->hasMany(Comunidad::class);
     }
 }
