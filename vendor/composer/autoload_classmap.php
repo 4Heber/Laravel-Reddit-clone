@@ -142,6 +142,7 @@ return array(
     'Database\\Factories\\ComunidadFactory' => $baseDir . '/database/factories/ComunidadFactory.php',
     'Database\\Factories\\PostFactory' => $baseDir . '/database/factories/PostFactory.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
+    'Database\\Seeders\\ComunidadSeeder' => $baseDir . '/database/seeders/ComunidadSeeder.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',

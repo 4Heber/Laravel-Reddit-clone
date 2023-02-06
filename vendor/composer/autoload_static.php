@@ -635,6 +635,7 @@ class ComposerStaticInitf5f500333a1dd4f6c507e8a13f952dcf
         'Database\\Factories\\ComunidadFactory' => __DIR__ . '/../..' . '/database/factories/ComunidadFactory.php',
         'Database\\Factories\\PostFactory' => __DIR__ . '/../..' . '/database/factories/PostFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
+        'Database\\Seeders\\ComunidadSeeder' => __DIR__ . '/../..' . '/database/seeders/ComunidadSeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
